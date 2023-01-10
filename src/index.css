@@ -10,12 +10,7 @@
   box-sizing: border-box;
 }
 
-.grid-container {
-  @apply grid grid-cols-4 gap-8;
-}
-
 body #root {
   display: flex;
   flex-direction: column;
-  min-height: 200vh;
 }

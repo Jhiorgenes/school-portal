@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import Card from '../components/Card'
 import MainInfoText from '../components/MainInfoText'
 import { Cards } from '../helpers/Cards'
@@ -139,9 +140,11 @@ diferenciada para o aluno."
           </div>
         </div>
 
-        <button className="bg-red hover:opacity-80 transition all ease-in-out delay-100 rounded text-white font-medium text-2xl py-4 px-12 mt-16 lg:mt-20 max-w-xs mb-12 lg:mb-24">
-          Ver mais notícias
-        </button>
+        <Link to="/noticias">
+          <button className="bg-red hover:opacity-80 transition all ease-in-out delay-100 rounded text-white font-medium text-2xl py-4 px-12 mt-16 lg:mt-20 max-w-xs mb-12 lg:mb-24">
+            Ver mais notícias
+          </button>
+        </Link>
       </div>
     </main>
   )

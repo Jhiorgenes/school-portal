@@ -1,6 +1,6 @@
 type Props = {
   text: string
-  image: string
+  image?: string
 }
 
 const Card = ({ text, image }: Props) => {

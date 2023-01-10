@@ -38,33 +38,54 @@ export const App = () => {
           <div className="hidden md:flex items-center gap-20">
             <ul className="flex gap-14">
               <li>
-                <a
+                <Link
+                  to="/"
                   className={`font-inter ${
                     location.pathname === '/' ? 'text-red' : 'text-dark'
                   } cursor-pointer transition all ease duration-200 font-medium hover:text-red`}
                 >
                   Inicio
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="font-inter cursor-pointer transition all ease duration-200 font-medium hover:text-red">
+                <Link
+                  to="/cursos"
+                  className={`font-inter ${
+                    location.pathname === '/cursos' ? 'text-red' : 'text-dark'
+                  } cursor-pointer transition all ease duration-200 font-medium hover:text-red`}
+                >
                   Cursos
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="font-inter cursor-pointer transition all ease duration-200 font-medium hover:text-red">
+                <Link
+                  to="/vagas"
+                  className={`font-inter ${
+                    location.pathname === '/vagas' ? 'text-red' : 'text-dark'
+                  } cursor-pointer transition all ease duration-200 font-medium hover:text-red`}
+                >
                   Vagas
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="font-inter cursor-pointer transition all ease duration-200 font-medium hover:text-red">
+                <Link
+                  to="/noticias"
+                  className={`font-inter ${
+                    location.pathname === '/noticias' ? 'text-red' : 'text-dark'
+                  } cursor-pointer transition all ease duration-200 font-medium hover:text-red`}
+                >
                   Noticías
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="font-inter cursor-pointer transition all ease duration-200 font-medium hover:text-red">
+                <Link
+                  to="/contato"
+                  className={`font-inter ${
+                    location.pathname === '/contato' ? 'text-red' : 'text-dark'
+                  } cursor-pointer transition all ease duration-200 font-medium hover:text-red`}
+                >
                   Contato
-                </a>
+                </Link>
               </li>
             </ul>
             <div className="hidden lg:flex">
@@ -174,7 +195,7 @@ export const App = () => {
               Com mais de 20 anos de atuação, a unidade da Etec Professora Helcy
               Moreira Martins Aguiar se destaca no ensino médio e técnico,
               recebendo constantemente menções e congratulações em todo o estado
-              de São Paulo.{' '}
+              de São Paulo.
             </p>
 
             <div className="flex mt-10 md:mt-6 justify-center md:justify-start columns-3 gap-6">
@@ -191,6 +212,7 @@ export const App = () => {
           </div>
         </div>
       </footer>
+
       <div className="bg-red p-6 text-center text-white font-inter text-base md:text-lg">
         Etec Professora Helcy Moreira Martins Aguiar - 2021 © Todos os direitos
         reservados.
