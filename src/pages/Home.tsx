@@ -51,7 +51,12 @@ diferenciada para o aluno."
 
         <div className="flex flex-col md:grid md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 mt-8 md:mt-12 md:container mx-auto">
           {Cards.map((card, index) => (
-            <Card key={index} image={card.image} text={card.text} />
+            <Card
+              key={index}
+              image={card.image}
+              text={card.text}
+              href={card.href}
+            />
           ))}
         </div>
       </div>

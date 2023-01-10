@@ -11,33 +11,41 @@ export const Cards = [
   {
     image: canaIcon,
     text: 'açúcar e álcool',
+    href: '/cursos/acucar-e-alcool',
   },
   {
     image: computadorIcon,
     text: 'desenvolvimento de sistemas',
+    href: '/cursos/desenvolvimento-de-sistemas',
   },
   {
     image: processoIcon,
     text: 'recursos humanos',
+    href: '/cursos/recursos-humanos',
   },
   {
     image: vacinaIcon,
     text: 'enfermagem',
+    href: '/cursos/enfermagem',
   },
   {
-    image: financeiroIcon,
+    image: despesasIcon,
     text: 'administração',
+    href: '/cursos/administracao',
   },
   {
     image: agriculturaIcon,
     text: 'agropecuária',
+    href: '/cursos/agropecuaria',
   },
   {
     image: vacaIcon,
     text: 'zootecnia',
+    href: '/cursos/zootecnia',
   },
   {
     image: financeiroIcon,
     text: 'agronegócio',
+    href: '/cursos/agronegocio',
   },
 ]

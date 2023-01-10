@@ -114,29 +114,44 @@ export const App = () => {
               </MenuHandler>
               <MenuList className="w-[250px] shadow-lg justify-center items-center border-0 outline-none flex flex-col gap-4">
                 <MenuItem className="w-full">
-                  <a className="font-inter active:text-red cursor-pointer transition all ease duration-200 font-medium hover:text-red">
+                  <Link
+                    to="/"
+                    className="font-inter active:text-red cursor-pointer transition all ease duration-200 font-medium hover:text-red"
+                  >
                     Inicio
-                  </a>
+                  </Link>
                 </MenuItem>
                 <MenuItem>
-                  <a className="font-inter active:text-red cursor-pointer transition all ease duration-200 font-medium hover:text-red">
+                  <Link
+                    to="/cursos"
+                    className="font-inter active:text-red cursor-pointer transition all ease duration-200 font-medium hover:text-red"
+                  >
                     Cursos
-                  </a>
+                  </Link>
                 </MenuItem>
                 <MenuItem>
-                  <a className="font-inter active:text-red cursor-pointer transition all ease duration-200 font-medium hover:text-red">
+                  <Link
+                    to="/vagas"
+                    className="font-inter active:text-red cursor-pointer transition all ease duration-200 font-medium hover:text-red"
+                  >
                     Vagas
-                  </a>
+                  </Link>
                 </MenuItem>
                 <MenuItem>
-                  <a className="font-inter active:text-red cursor-pointer transition all ease duration-200 font-medium hover:text-red">
+                  <Link
+                    to="/noticias"
+                    className="font-inter active:text-red cursor-pointer transition all ease duration-200 font-medium hover:text-red"
+                  >
                     Noticías
-                  </a>
+                  </Link>
                 </MenuItem>
                 <MenuItem>
-                  <a className="font-inter active:text-red cursor-pointer transition all ease duration-200 font-medium hover:text-red">
+                  <Link
+                    to="/contato"
+                    className="font-inter active:text-red cursor-pointer transition all ease duration-200 font-medium hover:text-red"
+                  >
                     Contato
-                  </a>
+                  </Link>
                 </MenuItem>
               </MenuList>
             </Menu>
