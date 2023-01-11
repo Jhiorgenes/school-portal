@@ -6,7 +6,9 @@ type Props = {
 const MainInfoText = ({ text, color }: Props) => {
   return (
     <div className={`${color} flex justify-center items-center p-[70px]`}>
-      <p className="font-medium text-xl text-white">{text}</p>
+      <p className="font-medium text-xl text-white" data-aos="fade-right">
+        {text}
+      </p>
     </div>
   )
 }

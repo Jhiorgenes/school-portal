@@ -5,12 +5,18 @@ import { Cards } from '../helpers/Cards'
 
 const Home = () => {
   return (
-    <main className="flex-1">
+    <main>
       <div className="bg-dark px-6 py-[87px] flex justify-center items-center flex-col md:py-40">
-        <h2 className="text-white text-3xl text-center font-mukta font-semibold md:text-5xl">
+        <h2
+          className="text-white text-3xl text-center font-mukta font-semibold md:text-5xl"
+          data-aos="fade-up"
+        >
           Helcy Moreira <br className="md:hidden" /> Martins Aguiar
         </h2>
-        <p className="text-center text-base pt-4 font-inter font-normal text-white-200 max-w-[1000px] md:text-2xl md:font-medium md:pt-6">
+        <p
+          className="text-center text-base pt-4 font-inter font-normal text-white-200 max-w-[1000px] md:text-2xl md:font-medium md:pt-6"
+          data-aos="fade-up"
+        >
           Com mais de 20 anos de atuação, a unidade da Etec Professora Helcy
           Moreira Martins Aguiar se destaca no ensino médio e técnico, recebendo
           constantemente menções e congratulações em todo o estado de São Paulo.
@@ -110,7 +116,10 @@ diferenciada para o aluno."
         </h2>
 
         <div className="flex flex-col md:grid md:grid-cols-2 lg:grid-cols-3 md:container md:mx-auto gap-8 mt-8 md:mt-12">
-          <div className="hover:scale-110 transition all ease-in-out delay-75 cursor-pointer">
+          <div
+            className="hover:scale-110 transition all ease-in-out delay-75 cursor-pointer"
+            data-aos="fade-up"
+          >
             <div className="h-52 bg-red rounded-tl rounded-tr"></div>
             <div className="bg-white-200 pl-6 pr-11 py-6 rounded-bl-md rounded-br-md">
               <h5 className="font-semibold text-2xl font-mukta">
@@ -121,7 +130,10 @@ diferenciada para o aluno."
               </p>
             </div>
           </div>
-          <div className="hover:scale-110 transition all ease-in-out delay-75 cursor-pointer">
+          <div
+            className="hover:scale-110 transition all ease-in-out delay-75 cursor-pointer"
+            data-aos="fade-up"
+          >
             <div className="h-52 bg-red rounded-tl rounded-tr"></div>
             <div className="bg-white-200 pl-6 pr-11 py-6 rounded-bl-md rounded-br-md">
               <h5 className="font-semibold text-2xl font-mukta">
@@ -132,7 +144,10 @@ diferenciada para o aluno."
               </p>
             </div>
           </div>
-          <div className="hover:scale-110 transition all ease-in-out delay-75 cursor-pointer">
+          <div
+            className="hover:scale-110 transition all ease-in-out delay-75 cursor-pointer"
+            data-aos="fade-up"
+          >
             <div className="h-52 bg-red rounded-tl rounded-tr"></div>
             <div className="bg-white-200 pl-6 pr-11 py-6 rounded-bl-md rounded-br-md">
               <h5 className="font-semibold text-2xl font-mukta">

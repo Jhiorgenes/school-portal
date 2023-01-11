@@ -13,8 +13,11 @@ import emailIcon from './assets/images/EnvelopeSimple.svg'
 import instagramIcon from './assets/images/InstagramLogo.svg'
 import faceBookIcon from './assets/images/FacebookLogo.svg'
 import linkedinIcon from './assets/images/LinkedinLogo.svg'
+import 'aos/dist/aos.css'
 
-import { useState } from 'react'
+import Aos from 'aos'
+
+import { useEffect, useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 
 export const App = () => {
@@ -24,6 +27,10 @@ export const App = () => {
   const handleOpenMenu = () => {
     setIsMenuOpened(!isMenuOpened)
   }
+
+  useEffect(() => {
+    Aos.init({ duration: 1500 })
+  }, [])
 
   return (
     <>

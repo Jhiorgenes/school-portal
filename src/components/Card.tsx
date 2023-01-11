@@ -9,6 +9,7 @@ type Props = {
 const Card = ({ text, image, href }: Props) => {
   return (
     <Link
+      data-aos="fade-up"
       to={href}
       className="flex cursor-pointer hover:scale-110 transition all ease-in-out delay-75 justify-center items-center flex-col bg-white-200 py-12 px-10 rounded"
     >
